@@ -13,7 +13,7 @@
 
   it supports both a DSL and object oriented interface to sound unix daemon
   code.  unlike some daemon libraries, it makes zero assumptions about how you
-  want to organize your code - although some sane defaults exists to help you
+  want to organize your code - although some sane defaults exist to help you
   along if you don't what to think about this at all.
 
 ### INSTALL
