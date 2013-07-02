@@ -22,7 +22,7 @@
 
 ### USAGE
 
-# simple usage is simple
+simple usage is simple...
 
 ````ruby
 
