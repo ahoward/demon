@@ -69,7 +69,7 @@ a few things to notice about the above daemon:
 
 * daemons are *expected* to run for a long time.  demon.rb will run the supplied block over and over (aka. it is an implied loop)
 * if the supplied block blows up the error will be logged, and the block retried.  we assume you mean to keep your daemon up.
-* the actual script being run must be know to demon.rb.  you can let it know by passing a block, or supplying __FILE__ as the first arugment
+* the actual script being run must be know to demon.rb.  you can let it know by passing a block, or supplying the *location of the script* as the first arugment
 
 ````ruby
 
