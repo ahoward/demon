@@ -47,20 +47,20 @@ end
 
 ````yaml
 
-  ---
-  start: start in daemon mode
-  run: run in the foreground, but otherwise like a daemon
-  stop: stop any currently running daemon
-  restart: restart any currently running daemon, or start a new one
-  pid: print the pid of the running daemon, iff any
-  ping: ensure a daemon is running, start one iff not
-  signal: hit the daemon, if any, with SIGUSR2
-  tail: tail -F all auxillary files (lock files, logs, etc)
-  fuser: report the fuser of any auxillary files (lock files, logs, etc)
-  log: display the location of the log file
-  root: display the location of the root daemon dir (lock files, logs, etc)
-  modes: print all modes, even those without "help"
-  help: this message
+---
+start: start in daemon mode
+run: run in the foreground, but otherwise like a daemon
+stop: stop any currently running daemon
+restart: restart any currently running daemon, or start a new one
+pid: print the pid of the running daemon, iff any
+ping: ensure a daemon is running, start one iff not
+signal: hit the daemon, if any, with SIGUSR2
+tail: tail -F all auxillary files (lock files, logs, etc)
+fuser: report the fuser of any auxillary files (lock files, logs, etc)
+log: display the location of the log file
+root: display the location of the root daemon dir (lock files, logs, etc)
+modes: print all modes, even those without "help"
+help: this message
 
 
 ````
