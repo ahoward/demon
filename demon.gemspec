@@ -9,28 +9,7 @@ Gem::Specification::new do |spec|
   spec.description = "description: demon kicks the ass"
 
   spec.files =
-["README.md",
- "Rakefile",
- "a.rb",
- "a.rb.demon",
- "a.rb.demon/cmdline",
- "a.rb.demon/lock",
- "a.rb.demon/log",
- "a.rb.demon/pid",
- "a.rb.demon/stderr",
- "a.rb.demon/stdin",
- "a.rb.demon/stdout",
- "b.rb",
- "background.rb",
- "cmdline",
- "lib",
- "lib/demon.rb",
- "lock",
- "log",
- "pid",
- "stderr",
- "stdin",
- "stdout"]
+["README.md", "Rakefile", "demon.gemspec", "lib", "lib/demon.rb"]
 
   spec.executables = []
   
