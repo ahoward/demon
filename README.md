@@ -1,12 +1,12 @@
-### NAME
+##### NAME
 
   demon.rb - the ruby daemon library you've been waiting for
 
-### SYNOPSIS
+##### SYNOPSIS
 
   a small, flexible, powerful ruby daemon library
 
-### DESCRIPTION
+##### DESCRIPTION
 
   demon.rb aims to make it simple to construct extremely well behaved daemon
   programs in no time.
@@ -16,11 +16,11 @@
   want to organize your code - although some sane defaults exist to help you
   along if you don't what to think about this at all.
 
-### INSTALL
+##### INSTALL
 
   gem 'demon'
 
-### USAGE
+##### USAGE
 
 simple usage is simple...
 
