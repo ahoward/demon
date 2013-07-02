@@ -30,15 +30,10 @@ simple usage is simple...
 
 # file: a.rb
 
-
 Demon do
-
   loop do
-
     stuff_as_a_daemon
-
   end
-
 end
 
 
@@ -79,9 +74,35 @@ a few things to notice about the above daemon:
 ````ruby
 
 Demon __FILE__ do
-
   # stuff
-
 end
 
+````
+
+
+of course, you can have much more find grained control over your daemons
+
+
+````ruby
+  class MyProgram 
+    def run
+      loop do
+        teh_awesome
+      end
+    end
+
+    def daemonize!
+      program = self
+
+      demon.start{ program.run }
+    end
+
+    def pid 
+      demon.run(:pid)
+    end
+
+    def demon
+      @demon ||= Demon.new(__FILE__, :root => '~/.my_progarm/')
+    end
+  end
 ````
