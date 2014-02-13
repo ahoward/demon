@@ -6,7 +6,7 @@ Gem::Specification::new do |spec|
   spec.version = "0.0.666"
   spec.platform = Gem::Platform::RUBY
   spec.summary = "demon"
-  spec.description = "description: demon kicks the ass"
+  spec.description = "demon.rb - the ruby daemon library you've been waiting for"
 
   spec.files =
 ["README.md", "Rakefile", "demon.gemspec", "lib", "lib/demon.rb"]
